@@ -16,5 +16,5 @@ use App\Http\Controllers\DashboardController;
 
 Route::get('/', [HomeController::class,'index']); 
 
-
+ 
 Route::get('/Dashboard', [DashboardController::class,'index']);
